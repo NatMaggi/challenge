@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {margin:0;padding:0;border:0 none; position: relative;}
+html {
+  background-image: linear-gradient(to bottom, #e6eff0 80%, #eee);
+  min-height: 100%;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: Josefin Slab, sans serif;
+}
+body {
+  height: 50vh;
+}
+article {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;  
+  background-position: center;
+}
+h1 {
+  background: rgba(0,0,0,.4);
+  color: #fff;
+  font-size: 5vw;
+  font-weight: 100;
+  text-align: center;
+  width: 100%;
+  line-height: 1;
+}
+
+.portada {
+  background-image: url(../../../assets/cutlery1.jpg);
+}
+.container{
+  margin-top: 4vw;
+  text-align: center;
+
+}
+h2{
+  font-family: Josefin Slab, sans serif;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+p{
+  font-family: Josefin Slab, sans serif;
+  margin-top: 10px;
+}
